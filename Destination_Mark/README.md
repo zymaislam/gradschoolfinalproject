@@ -15,6 +15,8 @@ They might know who else keeps records and have an insights into why certain tre
 
 CLOSE-MIDDLE-REACH:
 
+![Here is a drawing of my have-, nice-, great-to-have visualizations.](https://raw.githubusercontent.com/DataVisualizationCUJ/ProjectReconnect/master/Destination_Mark/IMAGES/destination_paperVisualization.JPG?token=AKQDY1IwBUOLyjNgqmlxsuZSXcmOrYQOks5VMAYmwA%3D%3D)
+
 Have-to-have: 
 A basic breakdown of where people are heading. The simplest visualization for this information is a map with circular 
 markers indicating the number of people who chose each destination. We can use the mapping programs we studied in class 
