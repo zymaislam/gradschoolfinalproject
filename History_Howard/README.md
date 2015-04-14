@@ -1,4 +1,4 @@
-1. Historical perspective of Project Reconnect. How does it compare to past initiatives in New York City and similar projects in other cities and states? (Howard)
+Historical perspective of Project Reconnect. How does it compare to past initiatives in New York City and similar projects in other cities and states? (Howard)
 
 Homelessness has plagued New York City for decades. Although there are many services dedicated to serving the unfortunates, the effects and efforts are far from satisfactory. As homeless population reached all time high this year, it is high time for NYC authorities to act. Now, a program has regained the spotlight to solve NYC’s homeless problem once and for all: relocating homeless to other cities.
 
@@ -8,6 +8,12 @@ My story will primarily focus on the background of NYC’s homeless issues and t
 
 Have-to-have: The basic background of NYC homeless issues. Have experts discuss the history and impact of Project Reconnect on homeless issue. A column graph will convey the number of homeless people in N.Y.C and other major cities to show the general gravitation of the issue. A donut graph will show how many homeless are currently in shelter and on the street. An illustration will show the proportion between the homeless population and NYC’s total population. These graphs will show the severe and seriousness of the homeless issues that drive policy makers to pursue relocation programs like Project Reconnect. 
 
+![Image of my close design]()
+
 Nice-to-have:  an illustration of the impact Project Reconnect had on the homeless problem in New York. 
 
+![Image of my middle design]()
+
 Great-to-have:  a bar graph showing U.S. cities that has Project Reconnect or equivalent programs and compare how many people they have sent over the years. 
+
+![Image of my reach design]()
