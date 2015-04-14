@@ -8,12 +8,12 @@ My story will primarily focus on the background of NYC’s homeless issues and t
 
 Have-to-have: The basic background of NYC homeless issues. Have experts discuss the history and impact of Project Reconnect on homeless issue. A column graph will convey the number of homeless people in N.Y.C and other major cities to show the general gravitation of the issue. A donut graph will show how many homeless are currently in shelter and on the street. An illustration will show the proportion between the homeless population and NYC’s total population. These graphs will show the severe and seriousness of the homeless issues that drive policy makers to pursue relocation programs like Project Reconnect. 
 
-![Image of my close design]()
+![Image of my close design](https://raw.githubusercontent.com/DataVisualizationCUJ/ProjectReconnect/master/History_Howard/images/close2.jpg?token=AKKvN_djIWgPefP2PYcwmQFBAhUeWcCyks5VNr5EwA%3D%3D)
 
 Nice-to-have:  an illustration of the impact Project Reconnect had on the homeless problem in New York. 
 
-![Image of my middle design]()
+![Image of my middle design](https://raw.githubusercontent.com/DataVisualizationCUJ/ProjectReconnect/master/History_Howard/images/Middle.jpg?token=AKKvN62Vm0eZtqkRAJjJLsgS5MmDxZoaks5VNr5SwA%3D%3D)
 
 Great-to-have:  a bar graph showing U.S. cities that has Project Reconnect or equivalent programs and compare how many people they have sent over the years. 
 
-![Image of my reach design]()
+![Image of my reach design](https://raw.githubusercontent.com/DataVisualizationCUJ/ProjectReconnect/master/History_Howard/images/Reach.jpg?token=AKKvN1tqonTQfhh6df9el2PJ6ZMIpIcBks5VNr5fwA%3D%3D)
