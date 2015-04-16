@@ -1,12 +1,117 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>Project Reconnect</title>
-	</head>
-	<body>
-		<h1>New Web Project Page</h1>
-	</body>
+<!--first graph in the close section, still needs help with adding additional columns-->
+
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1.1", {packages:["bar"]});
+      google.setOnLoadCallback(drawStuff);
+
+      function drawStuff() {
+        var data = new google.visualization.arrayToDataTable([
+          ['City Names', 'Number of Homeless'],
+          ["New York City", 67819],//correct population：67,819
+          ["Los Angeles", 34393],//34,393
+          ["Las Vegas", 9417],//9,417
+          ["Seattle", 8949],//8,949
+          ['San Diego', 8506],//8,506
+          ["D.C", 7748],
+          ["San Jose", 7567],
+          ["Denver", 6621],
+          ["San Francisco", 6408],
+          ["Chicago", 6187],
+        ]);
+
+        var options = {
+          title: '10 Cities that Have One-Third of U.S. Homeless Population',
+          width: 1000,
+          legend: { position: 'none' },
+          chart: { title: '10 Cities that Have One-Third of U.S. Homeless Population.'},
+          bars: 'horizontal', // Required for Material Bar Charts.
+          axes: {
+            x: {
+              0: { side: 'top', label: 'Number of Homeless'} // Top x-axis.
+            }
+          },
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('top_x_div'));
+        chart.draw(data, options);
+      };
+    </script>
+  </head>
+  <body>
+    <div id="top_x_div" style="width: 900px; height: 500px;"></div>
+  </body>
 </html>
 
+
+<!--second graph in the close section. Still need to figure out how to put the NYC's total homeless population into the donut hole-->
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Homeless distribution', 'Number of People'],
+          ['In Shelter',     60484],
+          ['On the Street',      7335]
+        ]);
+
+        var options = {
+          title: 'A Record High 90% of Homeless People in NYC Lives in Shelter',
+          pieHole: 0.4,
+          legend: "none"
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="donutchart" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>
+
+
+<!--graph in the Reach section, still need more data on cities and figure out how to make title appear in the option -->
+
+<html>
+  <head>
+  	<h2>Cities that Send Homeless Away with One-way Tickets</h2>
+    <script type='text/javascript' src='https://www.google.com/jsapi'></script>
+    <script type='text/javascript'>
+     google.load('visualization', '1', {'packages': ['geochart']});
+     google.setOnLoadCallback(drawMarkersMap);
+    
+      function drawMarkersMap() {
+      var data = google.visualization.arrayToDataTable([
+        ['City',   'City name', 'People sent away'],
+        ['New York City',    'New York City',    3620],
+        ['Baton Rouge',    'Baton Rouge',  60],
+        ['San Francisco',  'San Francisco',       1110],
+        ['Hawaii',    'Wahilii',     120],
+        ['Sarasota',    'Sarasota',      10],
+        ['San Diego',    'San Diego',      40],
+        ['St.Petersburg', 'St.Petersburg',  21]
+      ]);//data are off
+
+      var options = {
+      	title: 'Cities that Send Homeless Away with One-way Tickets',
+        region: 'US',
+        displayMode: 'markers',
+        colorAxis: {colors: ['green', 'red']}
+      };
+
+      var chart = new google.visualization.GeoChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+    };
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>
