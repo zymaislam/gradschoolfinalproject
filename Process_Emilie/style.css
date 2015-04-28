@@ -144,3 +144,9 @@
   	margin-right: 0px;
   	margin-top: 15px;
 }
+
+#visualization {
+	float: left;
+	display: block;
+	margin-left: 120px;
+}
