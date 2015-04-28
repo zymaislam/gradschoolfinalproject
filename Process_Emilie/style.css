@@ -1,35 +1,84 @@
-#chartTitle {
-	color: rgb(51, 51, 51);
+#upShotNamePlate {
+	float: left;
 	display: block;
-	font-family: arial;
-	font-size: 24px;
-	font-weight: 300;
-	height: 56px;
-	line-height: 28px;
-	margin-bottom: 5px;
-	margin-left: 135px;
+	margin-bottom: 0px;
+	margin-left: 200px;
 	margin-right: 0px;
-	margin-top: 0px;
-	width: 510px;
+	margin-top: 15px;
+	width: 100%;
+}
+
+#mastheadLineBreak{
+	display: block;
+	float: left;
+    height: 1px;
+    background: #000000;
+    margin-bottom: 0px;
+	margin-left: 200px;
+	margin-right: 0px;
+	margin-top: 10px;
+	width:80%;	
+}
+
+#chartTitle {
+	
+	float: left;
+	display: block;
+	color: rgb(51, 51, 51);
+	font-family: arial;
+	font-style: normal;
+	font-size: 2.25rem;
+	line-height: 2.5rem;
+	font-weight: 300;
+	margin-bottom: 0px;
+	margin-left: 200px;
+	margin-right: 0px;
+	margin-top: 25px;
+	width: 80%;
 }
 
 #chartSubTitle{
+	float: left;
+	display: block;
 	color: rgb(0, 0, 0);
-  	display: block;
   	font-family: arial;
   	font-size: 14px;
   	font-weight: bold;
-  	height: 34px;
  	letter-spacing: normal;
   	line-height: 17px;
   	margin-bottom: 10px;
-  	margin-left: 135px;
+  	margin-left: 200px;
 	margin-right: 0px;
 	margin-top: 0px;
-  	width: 510px;
+  	width: 100%;
 }
 
+#titleLineBreak{
+	float: left;
+	display: block;
+    height: 1px;
+    background: #D3D3D3;
+    margin-bottom: 15px;
+	margin-left: 200px;
+	margin-right: 0px;
+	margin-top: 8px;
+	width:80%;	
+}
+
+.visualizationImage {
+	float: left;
+	display: block;
+	margin-bottom: 5px;
+	margin-left: 200px;
+	margin-right: 0px;
+	margin-top: 0px;
+	width: 100%;	
+}
+
+
 #chartSource {
+	float: left;
+	display: block;
 	color: rgb(153, 153, 153);
 	display: block;
   	font-family: arial;
@@ -37,24 +86,61 @@
   	font-weight: 300;
   	height: 14px;
   	line-height: 14px;
-  	margin-bottom: 5px;
-  	margin-left: 0px;
+  	margin-bottom: 15px;
+  	margin-left: 200px;
   	margin-right: 0px;
   	margin-top: 0px;
-  	width: 510px;
+  	width: 100%;
 }
 
+
+#dateLine {
+	float: left;
+	display: block;
+ 	font-size: 0.6875rem;
+  	line-height: 0.75rem;
+ 	font-weight: 300;
+ 	font-family: arial;
+  	color: #000;
+  	line-height: 14px;
+  	margin-bottom: 15px;
+  	margin-left: 200px;
+  	margin-right: 0px;
+  	margin-top: 0px;
+  	width: 100%;	
+}
+
+#socialLinks{
+	float: left;
+	display: inline;
+	width: 10%;
+	margin-bottom: 15px;
+  	margin-left: 200px;
+  	margin-right: 0px;
+  	margin-top: 15px;	
+}
+
+
 .bodyCopy {
+	float: left;
+	display: block;
 	color: rgb(51, 51, 51);
-  	display: block;
   	font-family: georgia, 'times new roman', times, serif;
   	font-size: 16px;
   	font-weight: normal;
   	line-height: 23px;
   	margin-bottom: 10px;
-  	margin-left: 135px;
+  	margin-left: 10px;
   	margin-right: 0px;
-  	margin-top: 10px;
   	max-width: 540px;
-  	width: 510px;
+}
+
+#mainCopyContainer{
+	float: left;
+	display: inline;
+	width: 90%;
+	margin-bottom: 15px;
+  	margin-left: 10px;
+  	margin-right: 0px;
+  	margin-top: 15px;
 }
