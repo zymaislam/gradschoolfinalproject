@@ -1,0 +1,93 @@
+#upShotNamePlate {
+	float: left;
+	display: block;
+	margin-bottom: 0px;
+	margin-left: 17px;
+	margin-right: 0px;
+	margin-top: 47px;
+	width: 100%;
+}
+
+#mastheadLineBreak{
+	display: block;
+	float: left;
+    height: 1px;
+    background: #000000;
+    margin-bottom: 0px;
+	margin-left: 18px;
+	margin-right: 0px;
+	margin-top: 23px;
+	width:97%;	
+}
+
+#mainTitle {
+	
+	float: left;
+	display: block;
+	color: rgb(51, 51, 51);
+	font-family: arial;
+	font-style: normal;
+	font-size: 2.25rem;
+	line-height: 2.5rem;
+	font-weight: 300;
+	margin-bottom: 0px;
+	margin-left: 20%;
+	margin-right: 0px;
+	margin-top: 45px;
+	width: 80%;
+	max-width: 700px;
+}
+
+#byline {
+	float: left;
+	display: inline;
+ 	font-size: 0.6875rem;
+  	line-height: 0.75rem;
+ 	font-weight: 300;
+ 	font-family: arial;
+  	color: #000;
+  	line-height: 14px;
+  	margin-bottom: 15px;
+  	margin-left: 350px;
+  	margin-right: 0px;
+  	margin-top: 0px;
+  	width: 100%;	
+}
+
+#dateLine {
+	display: inline;
+ 	font-size: 0.6875rem;
+  	line-height: 0.75rem;
+ 	font-weight: 300;
+ 	font-family: arial;
+  	color: #000;
+  	line-height: 14px;
+  	margin-bottom: 15px;
+  	margin-left: 350px;
+  	margin-right: 0px;
+  	margin-top: 0px;
+  	width: 100%;	
+}
+.bodyCopy {
+	float: left;
+	display: block;
+	color: rgb(51, 51, 51);
+  	font-family: georgia, 'times new roman', times, serif;
+  	font-size: 16px;
+  	font-weight: normal;
+  	line-height: 23px;
+  	margin-bottom: 10px;
+  	margin-left: 270px;
+  	margin-right: 0px;
+  	max-width: 700px;
+}
+
+#mainDescription{
+	float: left;
+	display: inline;
+	width: 90%;
+	margin-bottom: 15px;
+  	margin-left: 10px;
+  	margin-right: 0px;
+  	margin-top: 15px;
+}
