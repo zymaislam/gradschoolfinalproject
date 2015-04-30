@@ -1,3 +1,9 @@
+html{
+	box-sizing: border-box;
+}
+	box-sizing: inherit;
+}
+
 #upShotNamePlate {
 	float: left;
 	display: block;
