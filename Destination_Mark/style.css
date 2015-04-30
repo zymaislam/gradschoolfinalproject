@@ -1,8 +1,20 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+
 #upShotNamePlate {
 	float: left;
 	display: block;
 	margin-bottom: 0px;
-	margin-left: 200px;
+	margin-left: 0px;
 	margin-right: 0px;
 	margin-top: 15px;
 	width: 100%;
@@ -11,13 +23,13 @@
 #mastheadLineBreak{
 	display: block;
 	float: left;
-    	height: 1px;
-    	background: #000000;
-    	margin-bottom: 0px;
-	margin-left: 200px;
+    height: 1px;
+    background: #000000;
+    margin-bottom: 0px;
+	margin-left: 0px;
 	margin-right: 0px;
 	margin-top: 10px;
-	width:80%;	
+	width:100%;	
 }
 
 #chartTitle {
@@ -31,10 +43,10 @@
 	line-height: 2.5rem;
 	font-weight: 300;
 	margin-bottom: 0px;
-	margin-left: 200px;
+	margin-left: 0px;
 	margin-right: 0px;
 	margin-top: 25px;
-	width: 80%;
+	width: 100%;
 }
 
 #chartSubTitle{
@@ -47,7 +59,7 @@
  	letter-spacing: normal;
   	line-height: 17px;
   	margin-bottom: 10px;
-  	margin-left: 200px;
+  	margin-left: 0px;
 	margin-right: 0px;
 	margin-top: 0px;
   	width: 100%;
@@ -56,20 +68,20 @@
 #titleLineBreak{
 	float: left;
 	display: block;
-    	height: 1px;
-    	background: #D3D3D3;
-    	margin-bottom: 15px;
-	margin-left: 200px;
+    height: 1px;
+    background: #D3D3D3;
+    margin-bottom: 15px;
+	margin-left: 0px;
 	margin-right: 0px;
 	margin-top: 8px;
-	width:80%;	
+	width:100%;	
 }
 
 .visualizationImage {
 	float: left;
 	display: block;
 	margin-bottom: 5px;
-	margin-left: 200px;
+	margin-left: 0px;
 	margin-right: 0px;
 	margin-top: 0px;
 	width: 100%;	
@@ -87,7 +99,7 @@
   	height: 14px;
   	line-height: 14px;
   	margin-bottom: 15px;
-  	margin-left: 200px;
+  	margin-left: 0px;
   	margin-right: 0px;
   	margin-top: 0px;
   	width: 100%;
@@ -104,7 +116,7 @@
   	color: #000;
   	line-height: 14px;
   	margin-bottom: 15px;
-  	margin-left: 200px;
+  	margin-left: 0px;
   	margin-right: 0px;
   	margin-top: 0px;
   	width: 100%;	
@@ -115,33 +127,54 @@
 	display: inline;
 	width: 10%;
 	margin-bottom: 15px;
-  	margin-left: 200px;
-  	margin-right: 0px;
+  	margin-left: 0px;
+  	margin-right: 15px;
   	margin-top: 15px;	
-}
-
-
-.bodyCopy {
-	float: left;
-	display: block;
-	color: rgb(51, 51, 51);
-  	font-family: georgia, 'times new roman', times, serif;
-  	font-size: 16px;
-  	font-weight: normal;
-  	line-height: 23px;
-  	margin-bottom: 15px;
-  	margin-left: 10px;
-  	margin-right: 0px;
-  	max-width: 540px;
 }
 
 #mainCopyContainer{
 	float: left;
 	display: inline;
-	width: 90%;
+	color: rgb(51, 51, 51);
+  	font-family: georgia, 'times new roman', times, serif;
+  	font-size: 16px;
+  	font-weight: normal;
+  	line-height: 23px;
+	width: 50%;
 	margin-bottom: 15px;
-  	margin-left: 10px;
-  	margin-right: 0px;
+  	margin-left: 15px;
+  	margin-right: 15px;
   	margin-top: 15px;
 }
+
+#storyLinkContainer {
+	float: left;
+	display: inline;
+	width: 30%;
+	font-size: 12px;
+  	line-height: 0.75rem;
+ 	font-weight: 300;
+ 	font-family: arial;
+  	color: #000;
+  	line-height: 14px;
+}
+
+#storyLinkIndividual {
+	font-size:12px;
+  	line-height: 0.75rem;
+ 	font-weight: 300;
+	font-family: georgia, 'times new roman', times, serif;
+  	color: #000;
+  	line-height: 14px;
+  	margin-bottom: 15px;
+  	margin-left: 0px;
+  	margin-right: 0px;
+  	margin-top: 0px;
+}
+
+#storyLinkBreak {
+	border-top: dotted 1px gray;
+	width: 70%;
+}
+
 
