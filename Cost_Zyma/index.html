@@ -5,30 +5,100 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>first draft</title>
+		<title>seconddraft</title>
 
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600&amp;subset=latin,latin-ext">
+		<style type="text/css"></style>
 	</head>
 	<body>
-		<h1></h1>
+
 		<!-- The skeleton of this code was taken from https://developers.google.com/chart/interactive/docs/quick_start -->
 		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 		<script type="text/javascript" src="data.js"></script>
 
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
 		<script type="text/javascript" src="scripts.js"></script>
-	
-		<link rel="stylesheet" type="text/css" href="styles.css">
+		<a href="http://www.nytimes.com/upshot/"> <div id="upShotNamePlate"></div></a>
+		<div id="mastheadLineBreak"></div>
+		<div id="chartTitle">
+			How can Project Reconnect help decrease costs?
+		</div>
+		<div class="titleLineBreak" id="titleLineBreak"></div>
 
-	<div class="chartTitle" id="chartTitle">How can Project Reconnect help decrease costs?
+		<div id="dateLine">
+			APRIL 26, 2015
+		</div>
 
-</div>
-<div id="source">Source: Department of Homeless Services monthly statistics and State of Homelessness 2015, a report by Coalition for the Homeless</div>
-	 	
-	 <div class="chartArea" id="chart_div"</div>
-	 
-	 
-	 
-		
-		
+		<!--<div class="chartArea" id="series_chart_div"</div>-->
+
+		<div id="chartSource">
+			Source: Department of Homeless Services monthly statistics and State of Homelessness 2015, a report by Coalition for the Homeless
+		</div>
+
+		<div id="share-buttons">
+
+			<!-- Facebook -->
+			<a href="http://www.facebook.com/sharer.php?u=http://www.simplesharebuttons.com" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+
+			<!-- Twitter -->
+			<a href="http://twitter.com/share?url=http://www.simplesharebuttons.com&text=Simple Share Buttons&hashtags=simplesharebuttons" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
+
+			<!-- LinkedIn -->
+			<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.simplesharebuttons.com" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" /></a>
+			<!-- Email -->
+			<a href="mailto:?Subject=Simple Share Buttons&Body=I%20saw%20this%20and%20thought%20of%20you!%20 http://www.simplesharebuttons.com"><img src="http://www.simplesharebuttons.com/images/somacro/email.png" alt="Email" /></a>
+
+		</div>
+		<div id="pullquote" style="display: none;">
+			<div id="pq-triangle"></div>
+			<a id="pq-intent" target="_blank" data-type="tweet">Tweet</a>
+			<span class="pq-separator"></span>
+			<a id="pq-file" data-type="file">File</a>
+			<span class="pq-separator"></span><a id="pq-copy" data-type="copy">Copy</a>
+			<span class="pq-separator"></span><a id="pq-copylink" data-type="copylink">Link</a>
+			<a id="pq-options" href="chrome-extension://odepjlkgmleifdipoemkdalmakbemeaa/./options.html" target="_blank" title="Settings" data-type="options"> <img id="pq-options_img" src="chrome-extension://odepjlkgmleifdipoemkdalmakbemeaa/./img/options.png"></a>
+			<div id="pq-notification" style="display: none;"></div>
+		</div>
+		<div id="storyBody" class="storyBody">
+
+			“Project Reconnect,” is overseen by the NYC Department of Homeless Services and aims to reinstate homeless shelter residents with family and friends outside of New York by buying them one-way bus tickets to go back home.
+
+			Project Reconnect has been in place in one form or another since Ed Koch’s tenure as mayor, albeit by different names.
+
+			In the fiscal year of 2014, the city department spent fifty-thousand dollars in buying bus tickets for such purposes, according to the preliminary budget hearing document (http://council.nyc.gov/downloads/pdf/budget/2014/). Listed under “Other adjustments” the budget states that the money was not sourced in from city funds, meaning it came from the state fund under the allocation for Homeless Housing and Assistance Program. A list of the different sources from which the DHS gets funds can be found in this dataset provided by the Department of City Planning (https://data.cityofnewyork.us/Housing-Development/Summary-Table-Of-Funding-Sources/i7jz-e2db).
+
+			The visualization summarizes how much money the city can save if Project Reconnect is implemented to its optimum capacity. The yearly reports updated by the Department of Homeless Services shows that nearly 20 percent of adults and 10 percent of families with children seeking shelter are not from within the state (http://www.nyc.gov/html/dhs/downloads/pdf/dashboard/dhs_data_dashboard_charts_FY-2015-Q2.pdf).
+
+			Yet onl a thousand people were moved to permanent housing last year according to the report by Coalition for the Homeless. TK: update the number before submission of final.
+
+			In FY 2014, the average annual cost of sheltering a homeless family with children was $37,047 and the average annual cost of sheltering a homeless single adult was $28,609 as stated by a report by the Coalition for the Homeless (http://www.coalitionforthehomeless.org/wp-content/uploads/2015/03/SOTH2015.pdf). TK: they used NYC Office of Management and Budget as a source. I need to find the dataset. One reason why taking care of the homeless has risen so sharply is because of the increase in the use of cluster shelters – a residual effect of Bloomberg's policies as stated by the report by the Coalition for the Homeless.</div>
+
+
+		<div id="storyBody" class="storyBody">
+
+	To make the visualization I multiplied the average cost per head with the total number of individuals sheltered each month starting June 2014. Then I calculated how much the city would have saved had they sent the out-of-state back home.
+
+		For families with children I had two different types of mismatching data. I only had the annual cost per family, and the total number of individuals sheltered, identifying as belonging to family.
+
+		So to arrive to the total cost of sheltering this population, I divided the annual cost of sheltering a family with the figure of the average size of families in the US, and arrived at a per head cost. Then I multiplied that with the given value of the total population of individuals belonging to families, hosted.
+
+		The reason I chose the last fiscal year is to keep inflation rates consistent. That way no adjustment is necessary.
+
+		The challenges of my visualization is to make it sensitive and recognize any underlying message it may imply unintentionally – such as – Project Reconnect should be used to send everyone who is from out-of-state away from NYC.
+
+		It should provide a word of caution that this is a complex social situation and that the data can only used for a comparison – and an acknowledgement of the benefits of Project Reconnect – not to drive away people who don't want to leave.
+
+
+
+		</div>
+		<div id="source">
+		Source: Department of Homeless Services monthly statistics and State of Homelessness 2015, a report by Coalition for the Homeless
+		</div>
+
+			 <div class="chartArea" id="chart_div"</div>
 	</body>
 
 </html>
