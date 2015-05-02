@@ -8,48 +8,72 @@ google.setOnLoadCallback(drawChart);
 function drawChart() {
 	var data = new google.visualization.DataTable();
 	data.addColumn('string', 'Year');
-	data.addColumn('number', 'Cost');
+	data.addColumn('number', 'Cost families with kids');
 	data.addColumn({
 		type : 'string',
 		role : 'annotation'
 	});
-	data.addColumn('number', 'Percentage of people of the total');
+	data.addColumn('number', '90% of Cost families with kids');
 	data.addColumn({
 		type : 'string',
 		role : 'annotation'
 	});
+	
+	data.addColumn('number', 'Cost families with adults');
 	data.addColumn({
-		type : 'number',
-		role : 'interval'
+		type : 'string',
+		role : 'annotation'
 	});
-
+	data.addColumn('number', '80% of Cost families with adults');
 	data.addColumn({
-		type : 'number',
-		role : 'interval'
+		type : 'string',
+		role : 'annotation'
 	});
-
-	data.addRows(dhsData);
+	data.addColumn('number', 'Cost single adults');
+	data.addColumn({
+		type : 'string',
+		role : 'annotation'
+	});
+		data.addColumn('number', '80% of Cost single adults');
+	data.addColumn({
+		type : 'string',
+		role : 'annotation'
+		});
+	
+	
+	
+	
+ 	data.addRows(dhsData);
 
 	var options = {
 		'title' : 'How Much Pizza I Ate Last Night',
-		'width' : 700,
-		'height' : 1500,
-		   intervals: { 'lineWidth': 4, 'barWidth': 0.5, 'color':'#a46eb7' },
-
-
-		colors : ['#bad80a', '#e5f871'],
+		'width' : 1200,
+		'height' : 700,
+		/*intervals : {
+			'lineWidth' : 4,
+			'barWidth' : 0.5,
+			'color' : '#a46eb7'
+		},*/
+chartArea: 1100,
+		colors : ['#bad80a', '#e5f871','#636864','#C6D1C8','#a46eb7','#ddc9e4',],
+		focusTarget: 'category',
+    // Use an HTML tooltip.
+    tooltip: { isHtml: true,  legend: 'none' },
+     
 		dataOpacity : 0.6,
 		annotations : {
-			highContrast : true,
-			textStyle: {
-     fontName: 'arial',
-  color: 'black',
-      fontSize: 14,
-      bold: false,
-      italic: false,
-         // The color of the text.
-      auraColor: 'transparent', // The color of the text outline.
-      opacity: 0.8},         // The transparency of the text.
+			alwaysOutside: true}
+			/*highContrast : true,
+			textStyle : {
+				fontName : 'arial',
+				color : 'black',
+				fontSize : 14,
+				bold : false,
+				italic : false,
+				// The color of the text.
+				auraColor : 'transparent', // The color of the text outline.
+				opacity : 0.8
+			}, // The transparency of the text.
 			boxStyle : {
 				//stroke : '#888', // Color of the box outline.
 				//strokeWidth : 1, // Thickness of the box outline.
@@ -69,8 +93,9 @@ function drawChart() {
 				}
 			}
 		}
-	};
-	var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+	*/
+};
+	var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
 	chart.draw(data, options);
 
 }
