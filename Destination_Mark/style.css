@@ -35,7 +35,7 @@
 #chartSubTitle{
 	color: rgb(0, 0, 0);
   	font-family: arial;
-  	font-size: 14px;
+  	font-size: 20px;
   	font-weight: bold;
  	letter-spacing: normal;
   	line-height: 17px;
@@ -46,9 +46,9 @@
 }
 
 #chartDeck{
-	color: rgb(153, 153, 153);
+	color: rgb(0, 0, 0);
   	font-family: arial;
-  	font-size: 14px;
+  	font-size: 18px;
   	font-weight: normal;
  	letter-spacing: normal;
   	line-height: 17px;
@@ -74,6 +74,17 @@
 	margin-top: 0px;	
 }
 
+
+table, td {
+	border: 1px solid rgb(153, 153, 153);
+	text-align: left;
+	font-family: arial;
+	font-size: 14px;		
+}
+
+th {
+	text-align: left;
+}
 
 #chartSource {
 	color: rgb(153, 153, 153);
