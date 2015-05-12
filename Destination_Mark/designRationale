@@ -1,0 +1,9 @@
+My responsibility was to answer the question, where are people heading with Project Reconnect? The most logical answer came in the form of a map.
+
+My first decision was how to scale the map. Because the vast majority of destinations landed in the south, I chose to fit the map around the contiguous United States and Puerto Rico. I then dropped Alaska and Hawaii to the left and a small table of foreign destinations to the right of the continental states. In this way, the visualization focused on the overall migration trend without losing the interesting points about about trips to the Ukraine and Japan.
+
+The green circles were a convenient way to show and compare the populations that ended up in each state. But while the circles told a good general story, they lacked precision. For extra clarity, I embed a number label into each circle. I removed these numbers from the map and put them in a table for the mobile-friendly visualization, because they could not scale. 
+
+The final touch was adding a marker above New York City. I used a purple dot to distinguish it from the destination states and connected it with a line to the word “New York City” in the deck for extra prominence. 
+
+The green and purple coloring came from The UpShot. To help these colors pop, I used a neutral grey for the background map (it also helped that this was one of CartoDB’s presets).
