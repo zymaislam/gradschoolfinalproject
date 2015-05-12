@@ -1,7 +1,25 @@
 
-var dhsData = [
-  ["FY 2014",630109508,"73124 people",567098557.2,"65812 people",74726624,"8672 people",59781299.2,"6938 people",986953282,"34498 people",789562625.6,"27598 people"],
-  ["FY 2013",610678173,"70869 people",549610355.7,"63782 people",72994607,"8471 people",58395685.6,"6777 people",911768830,"31870 people",729415064,"25496 people"],
-  ["FY 2012",570428166,"66198 people",513385349.4,"59578 people",69211744,"8032 people",55369395.2,"6426 people",873261116,"30524 people",698608892.8,"24419 people"],
-  ["FY 2011",607291692,"70476 people",546562522.8,"63428 people",65954518,"7654 people",52763614.4,"6123 people",914973038,"31982 people",731978430.4,"25586 people"]
+var dhsData = 
+[
+  ["",2960801200,"$3b spent","Total number of homeless individuals sheltered from 2011 till now was 3,43,600","opacity: 0.5;stroke-color: #ffffff; stroke-width: 15",2664721080,"Cut to $2.7b","opacity: 0.2;stroke-color: #ffffff; stroke-width: 15", 
+  "This could have brought down to 3,09,240"],
+  ["",340759265,"$3.4b spent","Total number of homeless individuals sheltered from 2011 till now was 39,545","opacity: 0.5;stroke-color: #ffffff; stroke-width: 15",272607412,"Cut to $2.7b ","opacity: 0.2;stroke-color: #ffffff; stroke-width: 15",
+  "This could have brought down to 31,636"],
+  ["",4401094124,"$4.4b spent","Total number of homeless individuals sheltered from 2011 till now was 1,53,836","opacity: 0.5;stroke-color: #ffffff; stroke-width: 15",3520875299.2,"Cut to $3.5b","opacity: 0.2;;stroke-color: #ffffff; stroke-width: 15",
+  " This could have brought down to 1,23,069"]
 ]
+/*[
+  ["",2960801200,"343600people",2664721080,"309240people"],
+  ["",340759265,"39545people",272607412,"31636people"],
+  ["",4401094124,"153836 people",3520875299.2,"123069people"]
+]*/
+
+/*[
+  [2960801200],
+  [2664721080],
+  [340759265],
+  [272607412],
+  [4401094124],
+  [3520875299.2]
+]
+*/
